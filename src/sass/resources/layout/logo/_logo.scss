@@ -1,0 +1,12 @@
+﻿.page-logo {
+    & a {
+        display: flex;
+        & .logo {
+            max-height: 50px;
+            margin: 0 15px 0 0;
+        }
+        & p {
+            color: #333333;
+        }
+    }
+}

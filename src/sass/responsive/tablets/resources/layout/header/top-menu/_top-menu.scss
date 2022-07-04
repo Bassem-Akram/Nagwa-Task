@@ -1,0 +1,22 @@
+& .top-menu {
+    padding: 0 20px 0 0;
+    & .btn {
+
+        & + .btn, & + .dropdown {
+        }
+    }
+
+    & .dropdown {
+    
+        & .dropdown-toggle {
+            &::after {
+            }
+        }
+    }
+
+    & svg {
+    }
+
+    & .badge {
+    }
+}

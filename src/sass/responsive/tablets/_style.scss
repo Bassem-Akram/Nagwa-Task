@@ -1,0 +1,13 @@
+﻿@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (max-width: 768px) {
+    // Layout
+    @import "resources/layout/layout.scss";
+
+    // Components
+    @import "resources/components/components.scss";
+}

@@ -1,0 +1,18 @@
+.table {
+
+    & thead, & tbody, & tfoot  {
+        & tr {
+            & th, & td {
+            }
+        }
+    }
+    & thead  {
+        & tr {
+            & th {
+            }
+        }
+    }
+
+    @import "calendar-table";
+    @import "gradebook-table";
+}

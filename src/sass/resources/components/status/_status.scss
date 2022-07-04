@@ -1,0 +1,13 @@
+.status {
+    &.success, &.danger {
+        
+    }
+
+    &.success {
+        color: $success;
+    }
+
+    &.danger {
+        color: $danger;
+    }
+}

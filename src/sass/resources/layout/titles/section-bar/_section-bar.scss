@@ -1,0 +1,31 @@
+﻿.section-bar {
+    margin: 20px 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+    & h3 {
+        position: relative;
+        margin: 0;
+        padding: 0 0 0 15px;
+        font-family: $nsb-font-family;
+
+        &::before {
+            content: '';
+            position: absolute;
+            background-color: #AE7129;
+            width: 9px;
+            height: 100%;
+            top: 0;
+            left: 0;
+            border-radius: 10px;
+        }
+    }
+
+    & .section-tools {
+        & .btn {
+            padding: 5px;
+        }
+    }
+}

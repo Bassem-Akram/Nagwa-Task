@@ -1,0 +1,24 @@
+.page-bar {
+
+    & .d-flex {
+        display: block;
+    }
+    & .page-title {
+        flex-direction: row;
+            justify-content: center;
+            border-bottom: 1px solid #EBEBEB;
+            margin: 0 0 5px;
+        & img {
+        }
+        & h3 {
+        }
+    }
+    & .page-toolbar {
+        display: flex;
+        max-width: 100%;
+        overflow: auto;
+        & .btn {
+            white-space: nowrap;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+﻿.btn-darkgray {
+    background-color: $darkgray;
+    color: $white;
+
+    &:hover, &:focus {
+        background-color: $darkgray;
+        color: $white;
+    }
+}

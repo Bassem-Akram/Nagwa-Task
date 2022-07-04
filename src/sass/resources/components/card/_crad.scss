@@ -1,0 +1,19 @@
+.card {
+    background-color: $white;
+    border: 1px solid #E9E9E9;
+    border-radius: 15px;
+    padding: 15px;
+    position: relative;
+
+    &.card-transparent {
+        background-color: $transparent;
+        border: none;
+    }
+
+    &.title-absolute {
+        & .section-bar {
+            position: absolute;
+            top: 5px;
+        }
+    }
+}

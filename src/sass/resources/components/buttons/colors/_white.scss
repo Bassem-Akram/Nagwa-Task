@@ -1,0 +1,9 @@
+﻿.btn-white {
+    background-color: $white;
+    color: $black;
+
+    &:hover, &:focus {
+        background-color: $white;
+        color: $black;
+    }
+}

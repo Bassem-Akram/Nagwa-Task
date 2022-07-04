@@ -1,0 +1,15 @@
+﻿.footer {
+    background-color: $white;
+    padding: 10px 0;
+
+    & .page-logo {
+        & a {
+            & .logo {
+                height: 20px;
+                margin: 0;
+            }
+        }
+    }
+
+    @import "copyrights.scss";
+}

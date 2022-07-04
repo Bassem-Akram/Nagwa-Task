@@ -1,0 +1,26 @@
+﻿.btn-transparent {
+    background-color: $white;
+    color: $default;
+    border: 1px solid $gray-200;
+
+    &:hover, &:focus {
+        background-color: $default;
+        color: $white;
+        & svg {
+            fill: $white;
+        }
+    }
+
+    &.active {
+        background-color: rgba(2, 107, 176, 10%);
+        color: $default;
+        border-color: rgba(2, 107, 176, 10%);
+        & svg {
+            fill: $default;
+        }
+    }
+    
+    & svg {
+        fill: $default;
+    }
+}

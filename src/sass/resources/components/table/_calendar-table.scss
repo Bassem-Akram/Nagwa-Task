@@ -1,0 +1,38 @@
+&.calendar-table {
+    & thead, & tbody  {
+        & tr {
+            & th, & td {
+            }
+        }
+    }
+    & thead  {
+        & tr {
+            & th {
+                
+            }
+        }
+    }
+    & tbody  {
+        & tr {
+            & td {
+                padding: 1rem;
+                border-radius: 10px;
+                background-color: rgba(120, 181, 23, 10%);
+                border: 5px solid #fff;
+                border-width: thin;
+
+                &.empty {
+                    background-color: transparent;
+                }
+
+                &.weekeng {
+                    background-color: rgba(51, 51, 51, 10%);
+                    
+                }
+                &.absent {
+                    background-color: rgba(229, 29, 29, 10%);
+                }
+            }
+        }
+    }
+}

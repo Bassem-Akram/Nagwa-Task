@@ -1,0 +1,110 @@
+.progress-crad {
+  margin: 0 0 15px;
+        padding: 0 0 15px;
+        border-bottom: 1px solid #EBEBEB;
+        &:last-child {
+            border: none;
+            margin: 0;
+            padding: 0;
+        }
+  & .progress {
+    
+
+    &:after {
+      
+    }
+
+    & span {
+      
+    }
+
+    & .progress-bar {
+      
+    }
+
+    & .progress-left {
+      
+
+      & .progress-bar {
+        
+
+        &::after {
+          content: '';
+          
+        }
+      }
+    }
+
+    & .progress-right {
+      
+
+      & .progress-bar {
+        
+      }
+    }
+
+    & .progress-value {
+      
+    }
+
+    // Colors
+    &.purple {
+      & .progress-bar {
+      }
+
+      & .progress-left {
+    
+        & .progress-bar {
+  
+          &::after {
+          }
+        }
+      }
+
+      & .progress-value {
+      }
+    }
+
+    &.green {
+      & .progress-bar {
+      }
+
+      & .progress-left {
+    
+        & .progress-bar {
+  
+          &::after {
+          }
+        }
+      }
+
+      & .progress-value {
+      }
+    }
+
+    &.pink {
+      & .progress-bar {
+      }
+      & .progress-left {
+    
+        & .progress-bar {
+  
+          &::after {
+            content: '';
+          }
+        }
+      }
+
+      & .progress-value {
+      }
+    }
+  }
+
+  & .progress-title {
+
+    & strong {}
+
+    & p {
+    }
+  }
+}

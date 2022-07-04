@@ -1,0 +1,9 @@
+﻿.btn-red {
+    background-color: $red;
+    color: $white;
+
+    &:hover, &:focus {
+        background-color: $red;
+        color: $white;
+    }
+}

@@ -1,0 +1,23 @@
+.chart-container {
+    & .chart {
+        width: 100%;
+        height: 350px;
+    }
+
+    & .dropdown {
+        position: absolute;
+        top: 35px;
+        right: 30px;
+        z-index: 9999;
+
+        & .btn {
+            color: $gray-900;
+            font-weight: 600;
+
+            &::after {
+                background-color: #000;
+                border-radius: 100%;
+            }
+        }
+    }
+}

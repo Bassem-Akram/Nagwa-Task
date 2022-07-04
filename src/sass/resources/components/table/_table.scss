@@ -1,0 +1,32 @@
+.table {
+    caption-side: bottom;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1rem;
+    vertical-align: top;
+    border-color: 1px solid #000;
+
+    & thead, & tbody, & tfoot  {
+        & tr {
+            border-color: inherit;
+                border-style: solid;
+                border-width: 0;
+            & th, & td {
+                border-color: inherit;
+                border-style: solid;
+                border-width: 0;
+                text-align: center;
+            }
+        }
+    }
+    & thead  {
+        & tr {
+            & th {
+                padding: 0.5rem 0.5rem;
+            }
+        }
+    }
+
+    @import "calendar-table";
+    @import "gradebook-table";
+}

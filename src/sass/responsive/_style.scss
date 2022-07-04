@@ -1,0 +1,14 @@
+﻿// Main Configuration
+@import "../configuration/variables.scss";
+
+/*Small devices (landscape phones, 576px and up)*/
+@import "phones/style.scss";
+
+/*Medium devices (tablets, 768px and up)*/
+@import "tablets/style.scss";
+
+/*Large devices (desktops, 992px and up , 991px and down)*/
+@import "desktops/style.scss";
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@import "large-desktops/style.scss";

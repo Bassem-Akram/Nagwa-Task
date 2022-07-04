@@ -1,0 +1,14 @@
+﻿.section-bar {
+    
+    & h3 {
+
+        &::before {
+            content: '';
+        }
+    }
+
+    & .section-tools {
+        & .btn {
+        }
+    }
+}

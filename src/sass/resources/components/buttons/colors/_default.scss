@@ -1,0 +1,9 @@
+﻿.btn-ba-default {
+    background-color: $default;
+    color: $white;
+
+    &:hover, &:focus {
+        background-color: $default;
+        color: $white;
+    }
+}

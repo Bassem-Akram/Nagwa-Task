@@ -1,0 +1,13 @@
+.card {
+    flex-direction: column;
+
+    &.card-transparent {
+        
+    }
+
+    &.title-absolute {
+        & .section-bar {
+            position: relative;
+        }
+    }
+}

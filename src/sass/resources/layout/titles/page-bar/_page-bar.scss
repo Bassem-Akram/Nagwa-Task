@@ -1,0 +1,17 @@
+.page-bar {
+    background-color: #fff;
+    padding: .5rem 0;
+    border-bottom: 1px solid #EBEBEB;
+    border-top: 1px solid #EBEBEB;
+    & .page-title {
+        display: flex;
+        align-items: center;
+        & img {
+            max-height: 50px;
+            margin: 0 15px 0 0;
+        }
+        & h3 {
+            font-family: $nsb-font-family;
+        }
+    }
+}

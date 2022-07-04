@@ -1,0 +1,11 @@
+﻿.footer {
+
+    & .page-logo {
+        & a {
+            & .logo {
+            }
+        }
+    }
+
+    @import "copyrights.scss";
+}

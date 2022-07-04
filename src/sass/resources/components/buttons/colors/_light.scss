@@ -1,0 +1,9 @@
+﻿.btn-light {
+    background-color: $light;
+    color: $darkgray;
+
+    &:hover, &:focus {
+        background-color: $light;
+        color: $darkgray;
+    }
+}

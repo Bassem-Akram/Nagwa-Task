@@ -1,0 +1,40 @@
+.dropdown {
+    
+
+    & .dropdown-toggle {
+        &::after {
+            
+        }
+    }
+
+    & .dropdown-menu {
+        
+
+        & li {
+            &:last-child {
+                & .dropdown-item {
+                }
+            }
+            & .dropdown-item {
+                
+
+                &:hover {
+                    
+                    & svg {
+                        
+                    }
+                }
+
+                & svg {
+                    
+                }
+            }
+        }
+    }
+    
+    &.show {
+        & .dropdown-menu {
+            
+        }
+    }
+}

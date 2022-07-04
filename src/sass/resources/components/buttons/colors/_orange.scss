@@ -1,0 +1,9 @@
+﻿.btn-orange {
+    background-color: $orange;
+    color: $white;
+
+    &:hover, &:focus {
+        background-color: $orange;
+        color: $white;
+    }
+}

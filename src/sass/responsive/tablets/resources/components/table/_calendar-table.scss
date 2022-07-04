@@ -1,0 +1,30 @@
+&.calendar-table {
+    & thead, & tbody  {
+        & tr {
+            & th, & td {
+            }
+        }
+    }
+    & thead  {
+        & tr {
+            & th {
+                
+            }
+        }
+    }
+    & tbody  {
+        & tr {
+            & td {
+                padding: .5rem;
+                &.empty {
+                }
+
+                &.weekeng {
+                    
+                }
+                &.absent {
+                }
+            }
+        }
+    }
+}

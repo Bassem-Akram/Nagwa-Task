@@ -1,0 +1,9 @@
+﻿.loading {
+
+    & .loading-spinner {
+
+        &:after {
+            content: '';
+        }
+    }
+}

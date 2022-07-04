@@ -1,0 +1,42 @@
+&.gradebook-table {
+    & thead, & tbody, & tfoot  {
+        & tr {
+            & th, & td {
+            }
+        }
+    }
+    & thead  {
+        & tr {
+            & th {
+                
+            }
+        }
+    }
+    & tbody  {
+        & tr {
+            & td {
+                &:first-child {
+                }
+            }
+            &:first-child {
+                & td {
+                }
+            }
+            &:last-child {
+                & td {
+                }
+            }
+        }
+    }
+
+    & tfoot {
+        & tr {
+            & td {
+                &:first-child {
+                }
+                &:last-child {
+                }
+            }
+        }
+    }
+}

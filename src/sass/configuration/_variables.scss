@@ -1,0 +1,49 @@
+﻿// Prefix for :root CSS Variables
+$variable-prefix: ba !default;
+
+// Progress Variables
+$borderWidth: 7px;
+$border-color-default: #eee;
+$size: 150px;
+
+
+// Global Variables
+
+// Font Variables
+$ns-font-family: "Noto Sans" !default;
+$nsb-font-family: "Noto Sans bold" !default;
+$font-awesome-free: "Font Awesome 5 Free" !default;
+
+// Gray Color Variables
+$white: #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #EBEBEB !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+
+// Color Variables
+$default: #026BB0 !default;
+$green: #739500 !default;
+$blue: #0d6efd !default;
+$bluedark: #ff4a12 !default;
+$orange: #df6900 !default;
+$purple: #4A3274 !default;
+$red: #FF0000 !default;
+$pink: #950086 !default;
+$light: $gray-100 !default;
+$gray: $gray-600 !default;
+$darkgray: $gray-900 !default;
+$transparent: transparent !default;
+
+// Status Map
+$default: $default !default;
+$success: $green !default;
+$warning: $orange !default;
+$danger: $red !default;
+// Status Map

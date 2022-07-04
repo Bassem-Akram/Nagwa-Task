@@ -1,0 +1,57 @@
+&.gradebook-table {
+    & thead, & tbody, & tfoot  {
+        & tr {
+            & th, & td {
+                padding: 1rem;
+            }
+        }
+    }
+    & thead  {
+        & tr {
+            & th {
+                
+            }
+        }
+    }
+    & tbody  {
+        border-bottom: 5px solid #FBFBFC;
+        & tr {
+            & td {
+                border-left: 5px solid #FBFBFC;
+                border-bottom: 1px solid #FBFBFC;
+                background-color: #fff;
+                &:first-child {
+                    text-align: start;
+                    font-family: $nsb-font-family;
+                }
+            }
+            &:first-child {
+                & td {
+                    border-radius: 15px 15px 0 0;
+                }
+            }
+            &:last-child {
+                & td {
+                    border-radius: 0 0 15px 15px;
+                }
+            }
+        }
+    }
+
+    & tfoot {
+        background-color: #fff;
+        & tr {
+            & td {
+                font-family: $nsb-font-family;
+                &:first-child {
+                    border-radius: 15px 0 0 15px;
+                    text-align: start !important;
+                }
+                &:last-child {
+                    border-radius: 0 15px 15px 0;
+                    border-left: 1px solid #FBFBFC;
+                }
+            }
+        }
+    }
+}
